@@ -16,7 +16,7 @@ public class Run {
 			tx = session.beginTransaction();
 			
 			tx.commit();
-			System.out.println("insert sessionFactory!!");
+			System.out.println("insert sessionSFactory!!");
 		}catch(Exception e) {
 			if(tx != null)
 				tx.rollback();

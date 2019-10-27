@@ -21,7 +21,7 @@ import model.Employee;
 
 public class HibernateConnection {
 	static String url = "jdbc:mysql://localhost:3306/web?characterEncoding=UTF-8";
-	static String uname = "it311";
+	static String uname = "root";
 	static String pwd = "1234";
 	
 	public static SessionFactory sessionFactory;
